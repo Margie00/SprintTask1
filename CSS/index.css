@@ -1,0 +1,250 @@
+
+Body{
+    background-color: #646d7a;
+    /* background-image: url('../IMAGES_VIDEOS/back.png');
+    background-position: contain; */
+}
+
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+    /* background-image: url('../IMAGES_VIDEOS/back2.png');
+    background-position: contain; */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    /* border: solid; */
+    height: 10em;
+}
+
+#welcomeDiv{
+    text-align:center;
+    font-size: 30px;
+    margin: 0%;
+}
+
+/* NAVBAR */
+
+#navUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    border: solid;
+    /* background-color: lightskyblue;  */
+    font-size: 30px;
+    background-color: #f68a43;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+
+.navLinks{
+    list-style: none;
+
+}
+
+.navAtags{
+    text-decoration: none;
+    color: black;
+}
+.navLinks :hover {
+    color:white;
+    /* border: solid white; */
+    padding: 5px;
+}
+
+
+
+
+/* MEET THE TEAM DIV */
+
+#teamUl{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    font-size: 30px;
+    font-family: cursive;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: #f68a43;
+    margin: 100px;
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+h3{
+    border: solid;
+    height: 10em;
+}
+
+.teamLi{
+    margin: 5px;
+    
+}
+
+.profile{
+    height: 300px;
+    width: auto;
+    margin: 5px;   
+    /* border: solid; */
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.teamLi :hover{
+    opacity: 75%;
+}
+
+#donateDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.QR{
+    text-decoration: none;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    margin: 50px;
+    margin-top: 10px;
+    transition: transform .5s;
+}
+
+.QR:hover {
+    transform: scale(1.5);
+  }
+
+
+#videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: #f68a43;
+    margin: 25px;
+    
+}
+
+.vids{
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.vidLi{
+    list-style: none;
+    padding: 5px;
+    /* border: solid; */
+    /* background-color: black; */
+}
+
+
+  video {
+    transition: transform .5s;
+  }
+  
+  video:hover {
+    transform: scale(1.5);
+  }
+
+
+
+/* FOOTER */
+
+#footUl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #f68a43;
+    border: solid;
+    text-align: center;
+    height: 15em;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.footLinks{
+    list-style: none;
+    padding: 5px;
+}
+
+.footLinks :hover {
+    color:white;
+    border: solid white;
+    padding: 5px;
+}
+
+.footAtags{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* -------------------------------------- */
+
+.wrapper.one {
+    background-color: #1a1a1a;
+}
+.drop-main {
+    display: flex;
+    font-size: 7rem;
+    margin: 1.5rem;
+    justify-content: center;
+    font-family: "Russo One", sans-serif;
+}
+.d {
+    opacity: 0;
+    animation: drop 0.4s linear forwards;
+    color: #fbc25f;
+}
+.r {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.2s;
+    color: #ffee99;
+}
+.o {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.4s;
+    color: #f7ffcc;
+}
+.p {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.6s;
+    color: #ffffff;
+}
+.s {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+    color: #f68a43;
+}
+@keyframes drop {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    65% {
+        transform: translateY(-17px);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(-22px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
