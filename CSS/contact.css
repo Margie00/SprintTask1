@@ -1,6 +1,6 @@
 Body{
     background-color: bisque;
-    /* background-image: url('../IMAGES_VIDEOS/back.png');
+    /* background-image: url('../Media/back.png');
     background-position: contain; */
     width: 100%;
     height: 100%;
@@ -10,7 +10,7 @@ Body{
 header{
     display: flex;
     justify-content: center;
-    background-image: url('../IMAGES_VIDEOS/back2.png');
+    background-image: url('../Media/back2.png');
     background-position: contain;
     background-position: center;
     background-size: 500px;
